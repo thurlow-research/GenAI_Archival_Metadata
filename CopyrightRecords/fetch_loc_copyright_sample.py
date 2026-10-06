@@ -94,7 +94,7 @@ class Fetcher:
                 err = e
                 resp = e.response
                 if resp is not None:
-                    if resp.status_code not in (429, 500, 502, 503, 504):
+                    if resp.status_code not in (408, 429) and resp.status_code < 500:
                         raise
                     try:
                         retry_after = float(resp.headers.get("Retry-After", ""))
