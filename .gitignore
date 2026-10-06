@@ -3,6 +3,7 @@
 .env.local
 *.env
 !*.env.example
+.envrc
 
 # Python
 __pycache__/
@@ -23,6 +24,9 @@ node_modules/
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
+.Spotlight-V100
+.Trashes
 
 # Editor
 .vscode/settings.json

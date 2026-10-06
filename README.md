@@ -33,6 +33,16 @@ Development and evaluation begin with an archive of ~2,000 film reviews from **[
 
 Additional domains — such as other archival or preservation contexts — will be evaluated as the approach matures. Candidates will be documented here as they are identified.
 
+## Repository layout
+
+Each pilot project lives in its own top-level folder, with its own README, schema, extractor, and evaluation material:
+
+| Folder | Purpose |
+| --- | --- |
+| [`MovieReviewPrototype/`](MovieReviewPrototype/) | Pilot: metadata from film reviews (Nitrate Online) |
+| [`CopyrightRecords/`](CopyrightRecords/) | Pilot: metadata from copyright records |
+| [`slr/`](slr/) | Systematic Literature Review (not a pilot) |
+
 ## Systematic Literature Review (SLR)
 
 Alongside the practical extraction work, we are conducting a **Systematic Literature Review** on the use of generative AI for archival and metadata extraction tasks. The SLR materials (protocol, search strategy, screening results, synthesis) are maintained in this repository. The SLR informs both the design of the extraction pipeline and the evaluation methodology.
