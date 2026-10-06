@@ -37,3 +37,6 @@ node_modules/
 
 # Output / artifacts
 *.log
+
+# Pilot sample downloads (large)
+CopyrightRecords/loc_sample/
